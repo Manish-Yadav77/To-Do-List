@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body {
     background-color: rgb(4, 29, 29);
     font-family: "Poppins", sans-serif;
   }
   .container {
     width: 360px;
-    padding: 33px;
+    padding: 35px;
     text-align: center;
     background-color: #fff;
     margin-left: 33%;
-    margin-top: 5px;
+    margin-top: 70px;
+    border: 3px solid black;
+    border-radius: 40px;
   }
   input {
     width: 270px;
@@ -18,7 +21,6 @@ body {
     font-size: 19px;
   }
   button {
-  
     width: 60px;
     height: 41px;
     background-color: rgb(4, 29, 29);
@@ -43,5 +45,3 @@ body {
     right: 10px;
     cursor: pointer;
   }
- 
-  

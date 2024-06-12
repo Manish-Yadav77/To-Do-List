@@ -1,7 +1,7 @@
 let inp = document.getElementById('inp')
 let text=document.querySelector(".text")
 function Add()
-{  if(inputs.value=="")
+{  if(inp.value=="")
         {     
             alert("please enter task")
         }
@@ -14,4 +14,11 @@ function Add()
             newele.remove();
         })
     }
+    inp.focus();
 }
+inp.addEventListener('keypress',(e)=>{
+    if(e.key=='Enter')
+        {
+            Add();
+        }
+})
